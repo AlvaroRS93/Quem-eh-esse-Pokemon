@@ -112,7 +112,7 @@ function sorteiaEExibe() {
 }
 
 function sorteiaUmaID(){
-    var id = Math.floor(Math.random() * 151) + 1;
+    var id = Math.floor(Math.random() * 251) + 1;
     return id;
 }
 
