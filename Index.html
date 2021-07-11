@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html oncontextmenu="return false" onkeydown="return false">
+    <head>
+        <script type="text/javascript" src="pokemon.js"> </script>
+        <link rel="stylesheet" type="text/css" href="pokemon.css"><link>
+
+    </head>
+    <body> 
+        <div class="conteudo">
+            
+
+            <div class="titulo"> Quem é esse pokemon?</div>
+            <div class="imagemDoPokemon">
+                <img id="foto" ></img>
+            </div>
+            
+            <div id="divPontos" style= "display: none;">
+                <span id="lblPontos">0</span> <label> Pontos.</label>
+            </div>
+
+            <div id="opcoes" style="display: none;">
+                
+                <input id="opcao1" type="radio" name="opcoesPokemon" value="a"></input>
+                <label id="lblOpcao1">  </label> </br>
+
+                <input id="opcao2" type="radio" name="opcoesPokemon" value="b"> </input> 
+                <label id="lblOpcao2">  </label> </br>
+                <input id="opcao3" type="radio" name="opcoesPokemon" value="c"></input> 
+                <label id="lblOpcao3">  </label> </br>
+                <input id="opcao4" type="radio" name="opcoesPokemon" value="d"></input> 
+                <label id="lblOpcao4">  </label> </br>
+                                
+            </div>
+            <button id="botaoComecar" onclick="sorteiaEExibe();">Começar</button>
+            <button id="botaoResponder" style="display: none;" onclick="validarEscolha();">Responder</button>
+
+
+        </div>
+
+
+    </body>
+
+
+</html>
